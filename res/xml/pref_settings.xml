@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="service"
+        android:summaryOff="서비스를 사용하려면 체크하십시오"
+        android:summaryOn="서비스가 실행중입니다"
+        android:title="잠금 서비스 실행" />
+    
+</PreferenceScreen>
